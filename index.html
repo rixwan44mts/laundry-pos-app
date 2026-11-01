@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laundry POS</title>
+<meta name="description" content="Laundry POS — point-of-sale software for laundry and dry-cleaning shops in Pakistan, with encrypted backups to the owner's Google Drive.">
+<style>
+  :root{--ink:#1b1f3b;--muted:#5d6280;--line:#dfe2ee;--bg:#f3f4fa;--neel:#3443A8;--ready:#1B9655;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}
+  main{max-width:760px;margin:0 auto;padding:40px 16px 60px;}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:8px;}
+  .logo{width:52px;height:52px;border-radius:14px;background:var(--neel);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;}
+  h1{margin:0;font-size:32px;}
+  .sub{color:var(--muted);margin:4px 0 28px;}
+  section{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin-bottom:16px;}
+  h2{font-size:19px;margin:0 0 8px;}
+  ul{margin:8px 0 0;padding-left:20px;}
+  a{color:var(--neel);}
+  footer{color:var(--muted);font-size:14px;margin-top:28px;}
+</style>
+</head>
+<body>
+<main>
+  <header><div class="logo">LP</div><h1>Laundry POS</h1></header>
+  <p class="sub">Point-of-sale software for laundry and dry-cleaning shops — booking, tags, payments, pickup and daily cash registers, in English and Urdu.</p>
+
+  <section>
+    <h2>What it does</h2>
+    <ul>
+      <li>Books orders, prints receipts and tag numbers, and tracks every order until pickup.</li>
+      <li>Keeps the shop's cash register, expenses, staff salaries and reports.</li>
+      <li>Runs on the shop's own computer and works without internet.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Backups to Google Drive</h2>
+    <p>The shop owner can connect their own Google Drive. Laundry POS then saves an <b>encrypted</b> backup of the shop's data there every night, in a folder called <i>LaundryPOS Backups</i>.</p>
+    <ul>
+      <li>It uses Google's <code>drive.file</code> permission: it can only see and manage the backup files it created — nothing else in the owner's Drive.</li>
+      <li>Backups are encrypted on the shop computer before upload. Only the shop owner's backup password or recovery key can open them.</li>
+      <li>The owner can disconnect at any time, in Laundry POS or in their Google Account settings.</li>
+    </ul>
+    <p>Details: <a href="privacy.html">Privacy policy</a>.</p>
+  </section>
+
+  <footer>
+    Laundry POS is developed by <b>Precision Technologies</b>, Pakistan. Contact: 0319-2335276.<br>
+    <a href="privacy.html">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>
